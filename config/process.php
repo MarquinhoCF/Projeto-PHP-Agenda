@@ -11,4 +11,6 @@
 
     $stmt->execute();
 
-    $contatcs = $stmt->fetchAll();
+    $contacts = [];
+
+    $contacts = $stmt->fetchAll();
