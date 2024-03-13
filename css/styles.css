@@ -13,9 +13,11 @@
     margin: 0 auto;
 }
 
-#contacts-table {
+#contacts-table thead {
     color: #FFF;
     background-color: #007bff;
+    --bs-table-color: #FFF; /* Foi necessário reescrever essas variáveis para colocar a estilização thead do bootstrap */
+    --bs-table-bg: transparent;
 }
 
 .col-id {
