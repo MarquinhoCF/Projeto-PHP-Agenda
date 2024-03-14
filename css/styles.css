@@ -111,3 +111,10 @@
 #btn-submit {
     margin-top: 20px;
 }
+
+/* MOBILE */
+@media (max-width: 480px) {
+    #home-link {
+        display: none;
+    }
+}
