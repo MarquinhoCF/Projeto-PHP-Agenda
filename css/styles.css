@@ -70,3 +70,33 @@
     margin: 0 auto;
     margin-top: 30px;
 }
+
+/* Botão Voltar */
+#back-link-container {
+    display: block;
+    width: 500px;
+    margin: 30px auto 0;
+}
+
+#back-link {
+    border: 1px solid #007BFF;
+    color: #007BFF;
+    border-radius: 4px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#back-link:hover {
+    border: 1px solid #04468d;
+    color: #04468d;
+}
+
+/* VIEW CONTACT */
+#view-contact-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.bold {
+    font-weight: bold;
+}
