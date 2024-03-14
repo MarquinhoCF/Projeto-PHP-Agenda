@@ -100,3 +100,14 @@
 .bold {
     font-weight: bold;
 }
+
+/* CREATE CONTACT */
+#create-form,
+#edit-form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#btn-submit {
+    margin-top: 20px;
+}
